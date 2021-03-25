@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-25T14:59:13.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="ENikOuAJjmdHwFcp5x0Y" version="14.4.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-03-25T15:09:03.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="9rXAaNr6zRvTcUnT0CaF" version="14.4.9" type="github" pages="3">
   <diagram name="StartTemplate" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1359" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -378,6 +378,12 @@
       <root>
         <mxCell id="p0sW0zFhqll1E0BVaEcU-0" />
         <mxCell id="p0sW0zFhqll1E0BVaEcU-1" parent="p0sW0zFhqll1E0BVaEcU-0" />
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="p0sW0zFhqll1E0BVaEcU-1">
+          <mxGeometry x="780" y="250" width="380" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="p0sW0zFhqll1E0BVaEcU-1">
+          <mxGeometry x="20" y="370" width="680" height="390" as="geometry" />
+        </mxCell>
         <mxCell id="fnOeuw2zQnEX85kw2ssJ-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="p0sW0zFhqll1E0BVaEcU-1" source="KVNyPYqtMifubVhcfv7A-4" target="KVNyPYqtMifubVhcfv7A-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -388,6 +394,9 @@
           <mxGeometry x="130" y="60" width="43" height="50" as="geometry" />
         </mxCell>
         <mxCell id="fnOeuw2zQnEX85kw2ssJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="p0sW0zFhqll1E0BVaEcU-1" source="KVNyPYqtMifubVhcfv7A-5" target="KVNyPYqtMifubVhcfv7A-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="p0sW0zFhqll1E0BVaEcU-1" source="KVNyPYqtMifubVhcfv7A-5" target="fnOeuw2zQnEX85kw2ssJ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVNyPYqtMifubVhcfv7A-5" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="p0sW0zFhqll1E0BVaEcU-1" vertex="1">
@@ -402,7 +411,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KVNyPYqtMifubVhcfv7A-7" value="" style="shape=mxgraph.gcp2.doubleRect;strokeColor=#dddddd;shadow=1;strokeWidth=1;" parent="p0sW0zFhqll1E0BVaEcU-1" vertex="1">
-          <mxGeometry x="700" y="388" width="280" height="94" as="geometry" />
+          <mxGeometry x="850" y="388" width="280" height="94" as="geometry" />
         </mxCell>
         <mxCell id="KVNyPYqtMifubVhcfv7A-8" value="&lt;font color=&quot;#000000&quot;&gt;St Microservice Collection&lt;/font&gt;&lt;br&gt;Integration - проекты (коннекторы?)&lt;br&gt;для использования сервиса &lt;br&gt;другими приложением" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=api_analytics;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="KVNyPYqtMifubVhcfv7A-7" vertex="1">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
@@ -410,7 +419,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KVNyPYqtMifubVhcfv7A-9" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" parent="p0sW0zFhqll1E0BVaEcU-1" vertex="1">
-          <mxGeometry x="165" y="570" width="330" height="90" as="geometry" />
+          <mxGeometry x="30" y="620" width="330" height="90" as="geometry" />
         </mxCell>
         <mxCell id="KVNyPYqtMifubVhcfv7A-10" value="&lt;font color=&quot;#000000&quot;&gt;St.Common.Service&lt;/font&gt;&lt;br&gt;Спорный момент. Содержит &lt;br&gt;Helper&#39;s (Extension методы) &lt;br&gt;расширяющие функционал классов Framework&lt;br&gt;CrudService" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=api_analytics;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" parent="KVNyPYqtMifubVhcfv7A-9" vertex="1">
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
@@ -427,6 +436,20 @@
           <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
             <mxPoint x="5" y="-19.5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-6" value="" style="strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;" vertex="1" parent="p0sW0zFhqll1E0BVaEcU-1">
+          <mxGeometry x="380" y="620" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-7" value="&lt;font color=&quot;#000000&quot;&gt;St.SerilogSinks.Kafka&lt;/font&gt;&lt;br&gt;Библиотека для отправки логов &lt;br&gt;Serilog в Kafk-у" style="dashed=0;connectable=0;html=1;fillColor=#5184F3;strokeColor=none;shape=mxgraph.gcp2.hexIcon;prIcon=api_analytics;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontColor=#999999;fontSize=12;" vertex="1" parent="fnOeuw2zQnEX85kw2ssJ-6">
+          <mxGeometry y="0.5" width="44" height="39" relative="1" as="geometry">
+            <mxPoint x="5" y="-19.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-11" value="Проект с несколькими репозиториями для работы с утилитными пакетами" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p0sW0zFhqll1E0BVaEcU-1">
+          <mxGeometry x="550" y="482" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fnOeuw2zQnEX85kw2ssJ-14" value="Отдельный проект под каждый микросервис. Формировать по мере необходимости использования Сервисов в других проектах" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="p0sW0zFhqll1E0BVaEcU-1">
+          <mxGeometry x="790" y="300" width="190" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
