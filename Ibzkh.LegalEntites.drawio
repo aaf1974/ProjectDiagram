@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2021-03-28T10:20:52.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.1.1" etag="2dz8j1Q-jDy5JRod30Fy" type="github"><diagram id="1AalQ-GsTw3ZI122VdQ2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-28T23:31:20.794Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="wEydQsTSAMb83BZrGJXi" version="14.1.1" type="github">
+  <diagram id="1AalQ-GsTw3ZI122VdQ2" name="Page-1">
+    <mxGraphModel dx="2420" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-1" value="Billing" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database;fontSize=24;labelPosition=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="152" y="40" width="51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-2" value="LegalEntities" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database;fontSize=16;labelPosition=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="40" y="690" width="51" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AjbBa6_dqzmwRnqRVF5m-4" target="AjbBa6_dqzmwRnqRVF5m-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-4" value="LegalEntity&lt;br style=&quot;font-size: 16px;&quot;&gt;Service" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;fontSize=16;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="560" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AjbBa6_dqzmwRnqRVF5m-6" target="AjbBa6_dqzmwRnqRVF5m-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="282" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-6" value="WEB интерфейс&lt;br style=&quot;font-size: 16px;&quot;&gt;CRUD операции" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="260" y="697.6" width="44.8" height="44.8" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="AjbBa6_dqzmwRnqRVF5m-11" target="AjbBa6_dqzmwRnqRVF5m-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-11" value="Identity&lt;br&gt;Service" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;fontSize=16;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="654" y="560" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AjbBa6_dqzmwRnqRVF5m-12" value="&lt;span style=&quot;font-weight: 700 ; text-align: left&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;IdentityServer&lt;br&gt;Data&lt;/font&gt;&lt;/span&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database;fontSize=16;labelPosition=center;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="660" y="690" width="51" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
