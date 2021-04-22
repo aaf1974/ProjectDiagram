@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T13:19:45.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="YWjVkw-nh8OJHD4RBqzw" version="14.6.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-04-22T05:57:31.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="kKUwCXML1eraZwx1X2ya" version="14.6.3" type="github" pages="4">
   <diagram name="Template" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -395,10 +395,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ProducerDiagram" id="0Kg_4aKg_u40D094Kgqn">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="E4VCP8QjDPE0dmyWw5uZ-0" />
         <mxCell id="E4VCP8QjDPE0dmyWw5uZ-1" parent="E4VCP8QjDPE0dmyWw5uZ-0" />
+        <mxCell id="Sxb_cZJ6OC1WTEzuS3BR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;opacity=20;" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
+          <mxGeometry x="20" y="60" width="950" height="510" as="geometry" />
+        </mxCell>
         <mxCell id="scK8j_k5N29yVf3GczhY-0" value="KafkaSimpleProducer" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
           <mxGeometry x="50" y="80" width="340" height="150" as="geometry">
             <mxRectangle x="780" y="69.99999999999977" width="100" height="26" as="alternateBounds" />
@@ -422,10 +425,10 @@
         <mxCell id="scK8j_k5N29yVf3GczhY-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IKafkaSimpleProducer&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SendMessage&amp;lt;T&amp;gt;(T, string): void&lt;br&gt;+ SendMessageAsync&amp;lt;T&amp;gt;(T, string): Task&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SendMessageAsync&amp;lt;T&amp;gt;(T, string[]): Task&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ SendMessageAsync&amp;lt;T&amp;gt;(IEnumerable&amp;lt;T&amp;gt;, string[]): Task&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;gradientColor=#ffffff;" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
           <mxGeometry x="40" y="360" width="360" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="scK8j_k5N29yVf3GczhY-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.442;exitY=-0.007;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="E4VCP8QjDPE0dmyWw5uZ-1" source="scK8j_k5N29yVf3GczhY-19">
+        <mxCell id="scK8j_k5N29yVf3GczhY-29" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="460" as="sourcePoint" />
-            <mxPoint x="199" y="230" as="targetPoint" />
+            <mxPoint x="192" y="230" as="sourcePoint" />
+            <mxPoint x="192" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="scK8j_k5N29yVf3GczhY-44" value="&lt;b style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;KafkaSmartProducer&lt;/b&gt;" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
@@ -447,8 +450,8 @@
         </mxCell>
         <mxCell id="scK8j_k5N29yVf3GczhY-49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="746" y="360" as="sourcePoint" />
-            <mxPoint x="746" y="230" as="targetPoint" />
+            <mxPoint x="742" y="230" as="sourcePoint" />
+            <mxPoint x="742" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="scK8j_k5N29yVf3GczhY-51" value="SampleClientProducer" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
@@ -496,9 +499,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sxb_cZJ6OC1WTEzuS3BR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;opacity=20;" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
-          <mxGeometry x="20" y="60" width="950" height="510" as="geometry" />
-        </mxCell>
         <mxCell id="Sxb_cZJ6OC1WTEzuS3BR-2" value="Компоненты KafkaTool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;fontStyle=1" vertex="1" parent="E4VCP8QjDPE0dmyWw5uZ-1">
           <mxGeometry x="330" y="530" width="250" height="20" as="geometry" />
         </mxCell>
@@ -512,7 +512,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="ConsumerDiagram" id="udhjNNUvTTcet4oiEd32">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="LtvqSw8o639KMi0o72ZF-0" />
         <mxCell id="LtvqSw8o639KMi0o72ZF-1" parent="LtvqSw8o639KMi0o72ZF-0" />
