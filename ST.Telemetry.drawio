@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-17T09:41:07.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="nixa5eoqTE0pCjp52dlY" version="14.6.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-05-17T14:04:30.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="dhZEoHtY1lrWBFm_0rhk" version="14.6.13" type="github" pages="4">
   <diagram id="qnoL8s55e2lCcl9ub37X" name="Концепт">
     <mxGraphModel dx="1343" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -151,6 +151,12 @@
             <mxPoint x="430" y="315" as="sourcePoint" />
             <mxPoint x="158.29999999999995" y="170" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CP8YVxThDm6iWEc25LLo-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="CP8YVxThDm6iWEc25LLo-4" target="F4rKRSC1pj4bfYlLId7F-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CP8YVxThDm6iWEc25LLo-4" value="UI настройки телеметрии" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;opacity=30;" vertex="1" parent="1">
+          <mxGeometry x="680" y="520" width="113.5" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
