@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T08:59:27.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="xgmumchc44euckimB2IK" version="14.6.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-19T10:07:53.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ivk21JY4a77I-R2jvyI3" version="14.6.13" type="github" pages="7">
   <diagram id="qnoL8s55e2lCcl9ub37X" name="Концепт">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1178,7 +1178,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nSJrVh2QyQvJxDMphlzC-0" value="Датчик" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;sketch=0;opacity=30;" vertex="1" parent="xosLJ23OvD1ypVrJLaeU-1">
-          <mxGeometry x="640" y="320" width="210" height="180" as="geometry" />
+          <mxGeometry x="780" y="490" width="210" height="180" as="geometry" />
         </mxCell>
         <mxCell id="nSJrVh2QyQvJxDMphlzC-1" value="+Тип датчика&#xa;+Объект ST&#xa;+Свойство ST&#xa;+Тэг в датчике&#xa;+Строка подключения&#xa;+Периодичность опроса&#xa;+Период действия датчика с&#xa;+Период действия датчика по" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="nSJrVh2QyQvJxDMphlzC-0">
           <mxGeometry y="30" width="210" height="150" as="geometry" />
