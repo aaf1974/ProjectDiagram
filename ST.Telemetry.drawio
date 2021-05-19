@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T10:07:53.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ivk21JY4a77I-R2jvyI3" version="14.6.13" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-05-19T11:08:07.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="0tlOYwIYPMUpwBLfnaV9" version="14.6.13" type="github" pages="8">
   <diagram id="qnoL8s55e2lCcl9ub37X" name="Концепт">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -328,8 +328,67 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="ДанныеV2" id="y7gsc3FhVtT_UFZVBYiS">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-0" />
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-1" parent="vcMbSH6E9rf_1NDwHIOJ-0" />
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;strokeWidth=4;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="40" y="40" width="160" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;strokeWidth=4;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="880" y="40" width="240" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-5" value="TelemetryData" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;dashPattern=1 1;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="920" y="75" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-6" value="+TimeStamp&#xa;+ObjectId&#xa;+ControllerId&#xa;+SensorId&#xa;+SensorValue" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-5">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="vcMbSH6E9rf_1NDwHIOJ-1" source="vcMbSH6E9rf_1NDwHIOJ-8" target="vcMbSH6E9rf_1NDwHIOJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-8" value="Object" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;dashPattern=1 1;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="60" y="75" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-9" value="+ObjectId&#xa;+ObjectTypeId&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-8">
+          <mxGeometry y="30" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-10" value="ObjectType" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;dashPattern=1 1;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="60" y="245" width="120" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-11" value="+ObjectTypeId&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-10">
+          <mxGeometry y="30" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;strokeWidth=4;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="260" y="40" width="560" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-31" value="БД SmartTwin" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="40" y="540" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-32" value="БД Телеметрии - метаданные" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="280" y="550" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-33" value="Хранилище ClickHouse" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="880" y="540" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-35" value="TelemetrySourceData" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;dashPattern=1 1;gradientColor=none;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="920" y="240" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vcMbSH6E9rf_1NDwHIOJ-36" value="+TimeStamp&#xa;+ObjectId&#xa;+ControllerId&#xa;+SensorId&#xa;+SensorValue" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-35">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Meprk_D9Wy2N64mYGPri-0" value="Датчик" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;sketch=0;opacity=30;" vertex="1" parent="vcMbSH6E9rf_1NDwHIOJ-1">
+          <mxGeometry x="585" y="350" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Meprk_D9Wy2N64mYGPri-1" value="+Тип датчика&#xa;+Объект ST&#xa;+Свойство ST&#xa;+Тэг в датчике&#xa;+Строка подключения&#xa;+Периодичность опроса&#xa;+Период действия датчика с&#xa;+Период действия датчика по" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="Meprk_D9Wy2N64mYGPri-0">
+          <mxGeometry y="30" width="210" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
   <diagram id="vcVKz1hV7tMmD-xO7uIp" name="TelemetryLocal">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="ji1a8uXVYIN5rkWVsUNT-0" />
         <mxCell id="ji1a8uXVYIN5rkWVsUNT-1" parent="ji1a8uXVYIN5rkWVsUNT-0" />
@@ -363,7 +422,7 @@
           <mxGeometry x="300" y="230" width="52" height="62" as="geometry" />
         </mxCell>
         <mxCell id="21z3PSwOU6z8KbMJVgAf-0" value="" style="group;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;textDirection=ltr;" vertex="1" connectable="0" parent="ji1a8uXVYIN5rkWVsUNT-1">
-          <mxGeometry x="140" y="150" width="100" height="60" as="geometry" />
+          <mxGeometry x="90" y="130" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="21z3PSwOU6z8KbMJVgAf-1" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.device;opacity=30;" vertex="1" parent="21z3PSwOU6z8KbMJVgAf-0">
           <mxGeometry x="10.959601099012907" y="5.454545454545454" width="39.137071334079586" height="20.35209117736848" as="geometry" />
@@ -395,7 +454,7 @@
         <mxCell id="21z3PSwOU6z8KbMJVgAf-9" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="ji1a8uXVYIN5rkWVsUNT-1" source="21z3PSwOU6z8KbMJVgAf-5" target="21z3PSwOU6z8KbMJVgAf-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="190" y="371" />
+              <mxPoint x="140" y="371" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -421,7 +480,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="TelemetryMaster" id="bTe_FPYq7n5MCKK8deKR">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="PrBjotaGbIEeXcJ4j6Uc-0" />
         <mxCell id="PrBjotaGbIEeXcJ4j6Uc-1" parent="PrBjotaGbIEeXcJ4j6Uc-0" />
@@ -737,7 +796,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3a7Nvi-yJV9jJJ0RwMeI" name="Данные">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="6YmgcbIyRF0iGY6VEGHO-0" />
         <mxCell id="6YmgcbIyRF0iGY6VEGHO-1" parent="6YmgcbIyRF0iGY6VEGHO-0" />
@@ -876,7 +935,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VMenIlojybJRLtxjCvZc" name="БД телеметрии">
-    <mxGraphModel dx="1673" dy="934" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="xosLJ23OvD1ypVrJLaeU-0" />
         <mxCell id="xosLJ23OvD1ypVrJLaeU-1" parent="xosLJ23OvD1ypVrJLaeU-0" />
