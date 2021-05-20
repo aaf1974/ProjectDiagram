@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T15:36:16.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="pRr27wjMRDjobj0W3jrJ" version="14.6.13" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-05-20T15:38:49.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="y33XHmvNxvxmvZx8MiPK" version="14.6.13" type="github" pages="10">
   <diagram id="qnoL8s55e2lCcl9ub37X" name="Концепт">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1615,7 +1615,7 @@
           <mxGeometry x="30" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="x5twTTUStKED1H88V8LH-74" value="ParsingTemplateSetting" style="shape=table;startSize=40;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;rounded=0;dashed=1;sketch=0;strokeWidth=2;opacity=30;" vertex="1" parent="x5twTTUStKED1H88V8LH-1">
-          <mxGeometry x="650" y="560" width="180" height="190" as="geometry" />
+          <mxGeometry x="650" y="540" width="180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="x5twTTUStKED1H88V8LH-75" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=1;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="x5twTTUStKED1H88V8LH-74">
           <mxGeometry y="40" width="180" height="30" as="geometry" />
