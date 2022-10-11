@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T14:51:00.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="rKEXXloX9GvdiNvNGRhL" version="20.3.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-10-11T10:06:38.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RxtG7zw-q6aTW9WV_bOp" version="20.3.5" type="github" pages="8">
   <diagram id="ENWvGRKm66jdoPPi_Mgj" name="MetadataDB">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -599,7 +599,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Result MetadataDB" id="LU5uNzV4KIGXFCIHAsRf">
-    <mxGraphModel dx="1598" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1385" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="jLOKUWuy6OD6stLaP5mY-0" />
         <mxCell id="jLOKUWuy6OD6stLaP5mY-1" parent="jLOKUWuy6OD6stLaP5mY-0" />
@@ -1774,9 +1774,9 @@
         <mxCell id="MYkPXkCgbIdIUnQutQ_r-33" value="&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;0&quot; border=&quot;1&quot; style=&quot;font-size:1em;width:100%;height:100%;&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Имя&lt;/th&gt;&lt;th&gt;Системное имя&lt;/th&gt;&lt;td&gt;Тип поля&lt;/td&gt;&lt;td&gt;Nullable&lt;/td&gt;&lt;td&gt;Длина поля&lt;/td&gt;&lt;td&gt;Использовать&lt;br&gt;в условиях &lt;br&gt;фильтрации&lt;/td&gt;&lt;td&gt;Использовать &lt;br&gt;в табличном &lt;br&gt;представлении&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;row 1, cell 1&lt;/td&gt;&lt;td&gt;row 1, cell 2&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Drop&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;row 2, cell 1&lt;/td&gt;&lt;td&gt;row 2, cell 2&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Drop&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt; " style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="80" y="525" width="850" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="MYkPXkCgbIdIUnQutQ_r-34" value="Call" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.855;exitY=0.789;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="MYkPXkCgbIdIUnQutQ_r-34" value="Call" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="569.25" y="109.993846153846" as="sourcePoint" />
+            <mxPoint x="569" y="160" as="sourcePoint" />
             <mxPoint x="571.7437847110041" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
