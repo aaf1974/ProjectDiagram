@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T16:28:07.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0Msm-UZaet4OSGGyOrle" version="22.1.0" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-11-22T04:29:27.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="k9KYBl8j8yZYKqY6CK_e" version="22.1.0" type="github" pages="11">
   <diagram name="Копия Схема синхронизации" id="seZV_HY0d5tDe9g9w8M-">
     <mxGraphModel dx="1434" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1599,7 +1599,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="uOM9URiZR-X8hGbvOern" name="Страница — 11">
-    <mxGraphModel dx="2607" dy="1378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1509" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1719,6 +1719,21 @@
         </mxCell>
         <mxCell id="mMjp4uMwyYF8ysLavo1R-78" value="&lt;b&gt;Данные центрального аппарата:&lt;/b&gt;&lt;br&gt;1) Справочник портов, филиалов, данные PortCall&lt;br&gt;2) Роли и права доступа&lt;br&gt;3) Прочие системные справочники&lt;br&gt;&lt;br&gt;&lt;b&gt;Филиальные данные:&lt;br&gt;&lt;/b&gt;1) Лоцманские справочники, справочник судов, бизнес справочники, т.д.&lt;br&gt;&lt;br&gt;2) бизнес данные - табеля, планы заходов, швартовок и т.д." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
           <mxGeometry x="20" y="1370" width="250" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mMjp4uMwyYF8ysLavo1R-79" value="Сервер ЦА" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#4D9900;" vertex="1" parent="1">
+          <mxGeometry x="465" y="930" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mMjp4uMwyYF8ysLavo1R-80" value="Сервер филиала" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="845.5" y="930" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mMjp4uMwyYF8ysLavo1R-81" value="Сервер филиала" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="920" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mMjp4uMwyYF8ysLavo1R-82" value="Сервер филиала" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="1470" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mMjp4uMwyYF8ysLavo1R-83" value="Сервер филиала" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="667.5" y="1470" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
