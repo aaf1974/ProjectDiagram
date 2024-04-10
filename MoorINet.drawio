@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T07:33:22.552Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="yb3G_3XpPSEUUUXmE-oM" version="24.2.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-10T09:37:06.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vWatCEO7NZe563QMd13r" version="24.2.1" type="github" pages="3">
   <diagram name="Архитектура MoorINEt" id="Mr9srXh7-GfqGZqTZkpS">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,7 +128,7 @@
         <mxCell id="Fs93H_DkSz9XMdRRdmED-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fs93H_DkSz9XMdRRdmED-41" target="Fs93H_DkSz9XMdRRdmED-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fs93H_DkSz9XMdRRdmED-41" value="АИС передатчик" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
+        <mxCell id="Fs93H_DkSz9XMdRRdmED-41" value="АИС приемник" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
           <mxGeometry x="1053" y="575.5" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Fs93H_DkSz9XMdRRdmED-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Fs93H_DkSz9XMdRRdmED-52" target="Fs93H_DkSz9XMdRRdmED-53">
@@ -154,7 +154,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fs93H_DkSz9XMdRRdmED-53" value="Общий OPC.Service" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Fs93H_DkSz9XMdRRdmED-53" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;OPC.Record&lt;span style=&quot;background-color: initial;&quot;&gt;.Service&lt;/span&gt;&lt;/b&gt;" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="861.25" y="123" width="62" height="53" as="geometry" />
         </mxCell>
         <mxCell id="Fs93H_DkSz9XMdRRdmED-55" value="Табло" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/users/sensor.svg;" vertex="1" parent="1">
@@ -221,7 +221,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Схема потоков" id="F0cS0Gs8Mj0JFTBbpX2X">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="6UkphGLPWZeksNI3lMy7-0" />
         <mxCell id="6UkphGLPWZeksNI3lMy7-1" parent="6UkphGLPWZeksNI3lMy7-0" />
@@ -412,7 +412,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8qMVXEW2-zyf7jD3Xjj4" name="KafkaTopic">
-    <mxGraphModel dx="1397" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2327" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,8 +469,16 @@
         <mxCell id="QZBpnWZAgY2B0BoTvk93-5" value="AIS_SRV" style="strokeWidth=2;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#fffbc0;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="730" y="505" width="60" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="QZBpnWZAgY2B0BoTvk93-6" value="" style="strokeWidth=2;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#fffbc0;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="605.5" y="570" width="26" height="18" as="geometry" />
+        <mxCell id="wHj6-koKMkScW1AaZAfq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QZBpnWZAgY2B0BoTvk93-6" target="GQ027xkqgllWegEXU6LY-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="720" />
+              <mxPoint x="140" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QZBpnWZAgY2B0BoTvk93-6" value="SRV_LED&#xa;LED_MTG&#xa;SRV_LED" style="strokeWidth=2;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#fffbc0;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590.87" y="690" width="56.25" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QZBpnWZAgY2B0BoTvk93-7" value="MoorINet.Back" style="strokeWidth=2;dashed=0;align=center;fontSize=8;shape=rect;fillColor=#c0f5a9;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="587" y="436" width="63" height="54" as="geometry" />
@@ -507,8 +515,11 @@
         <mxCell id="9aZx3HLbt1Bfo37gtLXS-3" value="Общий OPC.Service" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="510" y="110" width="62" height="53" as="geometry" />
         </mxCell>
+        <mxCell id="wHj6-koKMkScW1AaZAfq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9aZx3HLbt1Bfo37gtLXS-4" target="QZBpnWZAgY2B0BoTvk93-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9aZx3HLbt1Bfo37gtLXS-4" value="OPC.Scoreboard.Client" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="1030" y="505" width="62" height="53" as="geometry" />
+          <mxGeometry x="588" y="820" width="62" height="53" as="geometry" />
         </mxCell>
         <mxCell id="9aZx3HLbt1Bfo37gtLXS-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9aZx3HLbt1Bfo37gtLXS-5" target="QZBpnWZAgY2B0BoTvk93-4">
           <mxGeometry relative="1" as="geometry" />
@@ -522,7 +533,8 @@
         <mxCell id="9aZx3HLbt1Bfo37gtLXS-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.516;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QZBpnWZAgY2B0BoTvk93-1" target="GQ027xkqgllWegEXU6LY-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="202" y="310" />
+              <mxPoint x="190" y="310" />
+              <mxPoint x="190" y="141" />
             </Array>
           </mxGeometry>
         </mxCell>
