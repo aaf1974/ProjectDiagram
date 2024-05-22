@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T07:04:17.424Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="1XecRaKaDqBA3xqbm0sN" version="24.2.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-05-22T07:05:42.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="YYGzOm4i92LG529j_x27" version="24.2.1" type="github" pages="5">
   <diagram name="Архитектура MoorINEt" id="Mr9srXh7-GfqGZqTZkpS">
-    <mxGraphModel dx="1644" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -816,7 +816,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Копия Страница — 4" id="oygURavPXMsFZqcTAwZC">
-    <mxGraphModel dx="3289" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="k6RwEXgMF7m0T8uHPrrb-0" />
         <mxCell id="k6RwEXgMF7m0T8uHPrrb-1" parent="k6RwEXgMF7m0T8uHPrrb-0" />
