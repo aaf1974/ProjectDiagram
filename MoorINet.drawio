@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-23T11:08:24.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="bowpVCFZ-Q6UeevJnAM-" version="24.2.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-04T10:40:05.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="oXwNyTEw9mKIPx-BgiZ7" version="24.2.1" type="github" pages="7">
   <diagram name="Архитектура MoorINEt" id="Mr9srXh7-GfqGZqTZkpS">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1917" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -816,7 +816,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Низкий борт решение" id="oygURavPXMsFZqcTAwZC">
-    <mxGraphModel dx="3340" dy="209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3834" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="k6RwEXgMF7m0T8uHPrrb-0" />
         <mxCell id="k6RwEXgMF7m0T8uHPrrb-1" parent="k6RwEXgMF7m0T8uHPrrb-0" />
@@ -970,7 +970,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="olLUXgTzPfcittsFJM8o" name="СтатусыСудна">
-    <mxGraphModel dx="962" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,6 +1016,98 @@
         </mxCell>
         <mxCell id="RzIm6OtK4RhFTjEOk2xE-8" value="Отход" style="html=1;align=center;verticalAlign=middle;rounded=1;absoluteArcSize=1;arcSize=10;dashed=1;whiteSpace=wrap;strokeColor=#0000CC;" vertex="1" parent="1">
           <mxGeometry x="170" y="660" width="140" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="kobBZRhylhFjsxo2QuS3" name="Конвейер обработки">
+    <mxGraphModel dx="2950" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-1" value="Lifeline1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="70" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-2" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-1">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-3" value="MessageExceptionHandlerPipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="460" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-4" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-3">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-5" value="DockDataLostPipe : PipeBase&amp;lt;Message&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="800" y="30" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-6" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-5">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-7" value="DockDataLostService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1000" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-8" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-7">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-9" value="WeatherPipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1200" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-10" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-9">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-11" value="MessageCalculationPipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2180" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-12" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-11">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-13" value="SpeedExceedNotificationPipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2170" y="530" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-14" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-13">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-15" value="FilterPipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1460" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-16" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-15">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-17" value="ShipStatusService.NewRawMessage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1730" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-18" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-17">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-19" value="IShipStatusServiceDockTimer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1960" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-20" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-19">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-21" value="PreviousLastMessagePipe" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2390" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-22" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-21">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-23" value="IMessageBuffer" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2610" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-24" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-23">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-25" value="IShipStatusService&lt;div&gt;.NewProcessedMessage&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2850" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-26" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-25">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-27" value="ShipStatusServiceMessageHandler" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="3060" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ZctWFN4sCWK9t_29Dy0H-28" value="" style="shape=umlDestroy;dashed=0;targetShapes=umlLifeline;" vertex="1" parent="ZctWFN4sCWK9t_29Dy0H-27">
+          <mxGeometry x="30" y="280" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
