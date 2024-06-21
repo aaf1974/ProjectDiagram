@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-20T06:54:33.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="aI0HXCRqb-2IpdByFLGq" version="24.5.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-06-21T05:05:51.550Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="4jM_Ln9rZzBd2w-tkp-O" version="24.5.4" type="github" pages="3">
   <diagram name="UseCase" id="dT4z-n9Dm4nn1qvsIWwD">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="COTbKCmbvgxTM8mm0NBm-21" value="Перенаправить сообщение другому специалисту" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="840" y="730" width="140" height="70" as="geometry" />
+          <mxGeometry x="730" y="600" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="COTbKCmbvgxTM8mm0NBm-22" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="COTbKCmbvgxTM8mm0NBm-21" target="COTbKCmbvgxTM8mm0NBm-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -110,6 +110,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="420" as="sourcePoint" />
             <mxPoint x="720" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w7ZiDRqTjVx5oelL68iP-1" value="Система" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="640" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w7ZiDRqTjVx5oelL68iP-2" value="Запрашивает информацию о новом пользователе из внешней системы" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="730" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="w7ZiDRqTjVx5oelL68iP-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="w7ZiDRqTjVx5oelL68iP-2" target="w7ZiDRqTjVx5oelL68iP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="540" as="sourcePoint" />
+            <mxPoint x="720" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
@@ -253,11 +265,11 @@
     </mxGraphModel>
   </diagram>
   <diagram id="7TkBsIDImTZ4kCWhit2y" name="Последовательность">
-    <mxGraphModel dx="1727" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1306" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0tCpti0_q01T19mOi2_m-1" value="Пользователь" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="0tCpti0_q01T19mOi2_m-1" value="Пользователь&lt;div&gt;внешнего приложения&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="60" y="50" width="100" height="760" as="geometry" />
         </mxCell>
         <mxCell id="0tCpti0_q01T19mOi2_m-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="0tCpti0_q01T19mOi2_m-1">
@@ -368,6 +380,22 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="115" y="802" as="sourcePoint" />
             <mxPoint x="584.5" y="802" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Mn6-717ozyCp0esoHRp-1" value="Внешнее приложение" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="770" y="50" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="3Mn6-717ozyCp0esoHRp-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="3Mn6-717ozyCp0esoHRp-1">
+          <mxGeometry x="50" y="160" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="3Mn6-717ozyCp0esoHRp-4" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="3Mn6-717ozyCp0esoHRp-2" parent="1" target="0tCpti0_q01T19mOi2_m-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3Mn6-717ozyCp0esoHRp-3" value="Запрашивает информацию&amp;nbsp;&lt;div&gt;о пользователе&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="3Mn6-717ozyCp0esoHRp-2" parent="1" source="0tCpti0_q01T19mOi2_m-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="215" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
