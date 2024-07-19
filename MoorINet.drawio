@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-17T11:45:22.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="tvpkXX7NIr6cwP3ZwB8v" version="24.6.5" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-07-19T06:01:22.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Lx4pGGsR_XDCMeh1qdW4" version="24.6.5" type="github" pages="8">
   <diagram name="Архитектура MoorINEt" id="Mr9srXh7-GfqGZqTZkpS">
     <mxGraphModel dx="1917" dy="1020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1113,7 +1113,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UcxSuhv--hLr4t8ANC6i" name="Distanciometr">
-    <mxGraphModel dx="2868" dy="1492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="349" dy="331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
