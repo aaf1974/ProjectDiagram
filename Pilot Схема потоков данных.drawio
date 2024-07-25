@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T08:03:27.341Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="df6Nr5xB2VKAeye8qYjJ" version="24.7.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2024-07-25T08:39:09.611Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="mODVzb5gKQg2V1Kr8jec" version="24.7.1" type="github" pages="16">
   <diagram name="Копия Схема синхронизации" id="seZV_HY0d5tDe9g9w8M-">
     <mxGraphModel dx="1100" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -3094,7 +3094,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-lmWYCnmKl7PG7Q9E9zK" name="РИИС ЮГ">
-    <mxGraphModel dx="1854" dy="755" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2575" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3113,7 +3113,7 @@
         <mxCell id="EKzKMBa9mT0g73LC7aXT-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 23px;&quot;&gt;PilotBackend&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.office_web_apps_server;fontSize=24;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-7" vertex="1">
           <mxGeometry x="70" y="100" width="52" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="EKzKMBa9mT0g73LC7aXT-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilo Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-7" vertex="1">
+        <mxCell id="EKzKMBa9mT0g73LC7aXT-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilot Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-7" vertex="1">
           <mxGeometry x="210" y="40" width="83" height="51" as="geometry" />
         </mxCell>
         <mxCell id="EKzKMBa9mT0g73LC7aXT-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;Окружение филиала 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="EKzKMBa9mT0g73LC7aXT-7" vertex="1">
@@ -3131,7 +3131,7 @@
         <mxCell id="EKzKMBa9mT0g73LC7aXT-11" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;PilotBackend&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.office_web_apps_server;fontSize=24;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-8" vertex="1">
           <mxGeometry x="70" y="100" width="52" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="EKzKMBa9mT0g73LC7aXT-12" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilo Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-8" vertex="1">
+        <mxCell id="EKzKMBa9mT0g73LC7aXT-12" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilot Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-8" vertex="1">
           <mxGeometry x="210" y="40" width="83" height="51" as="geometry" />
         </mxCell>
         <mxCell id="EKzKMBa9mT0g73LC7aXT-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;Окружение филиала 2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="EKzKMBa9mT0g73LC7aXT-8" vertex="1">
@@ -3149,7 +3149,7 @@
         <mxCell id="EKzKMBa9mT0g73LC7aXT-17" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;PilotBackend&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.office_web_apps_server;fontSize=24;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-14" vertex="1">
           <mxGeometry x="70" y="100" width="52" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="EKzKMBa9mT0g73LC7aXT-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilo Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-14" vertex="1">
+        <mxCell id="EKzKMBa9mT0g73LC7aXT-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 22px;&quot;&gt;Pilot Web App&lt;/font&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.services.lync_web_app_client;fontSize=22;fontStyle=1" parent="EKzKMBa9mT0g73LC7aXT-14" vertex="1">
           <mxGeometry x="210" y="40" width="83" height="51" as="geometry" />
         </mxCell>
         <mxCell id="EKzKMBa9mT0g73LC7aXT-19" value="&lt;font face=&quot;Times New Roman&quot;&gt;Окружение центрального аппарата&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="EKzKMBa9mT0g73LC7aXT-14" vertex="1">
