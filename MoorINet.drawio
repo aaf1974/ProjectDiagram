@@ -1299,12 +1299,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="jwjMEkHOYORKJeb78bZC" name="Ledar">
-    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <diagram id="jwjMEkHOYORKJeb78bZC" name="Lidar">
+    <mxGraphModel dx="1184" dy="1169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="phSXiU_nFIz1C_I_4NZt-3" value="ПАК Ledar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+        <mxCell id="phSXiU_nFIz1C_I_4NZt-3" value="ПАК Lidar" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="100" height="750" as="geometry" />
         </mxCell>
         <mxCell id="phSXiU_nFIz1C_I_4NZt-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="phSXiU_nFIz1C_I_4NZt-3">
@@ -1388,6 +1388,113 @@
             <mxPoint x="816" y="690" as="sourcePoint" />
             <mxPoint x="100" y="690" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1rGR28HXfyB7Ntd0fDnH-1" value="Moorinet" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1270.56" width="62" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="1rGR28HXfyB7Ntd0fDnH-2" value="PAK" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.application2;fillColor=#86E83A;strokeColor=#B0F373;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1270.56" width="62" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-5" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1" source="1rGR28HXfyB7Ntd0fDnH-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="290" y="1296.56" as="sourcePoint" />
+            <mxPoint x="450" y="1296.56" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-8" value="Общение по WebSocket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qHnR-toNfS0p5GE4n8LX-5">
+          <mxGeometry x="-0.1081" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-6" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0.037;entryY=0.498;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1rGR28HXfyB7Ntd0fDnH-2" target="qHnR-toNfS0p5GE4n8LX-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="950" as="sourcePoint" />
+            <mxPoint x="740" y="949.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="950" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-9" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=-0.002;entryY=0.554;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1rGR28HXfyB7Ntd0fDnH-2" target="qHnR-toNfS0p5GE4n8LX-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="1190.56" as="sourcePoint" />
+            <mxPoint x="741.5254361579696" y="1210.0045335515642" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-10" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1" source="1rGR28HXfyB7Ntd0fDnH-2" target="qHnR-toNfS0p5GE4n8LX-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="790" y="1190.56" as="sourcePoint" />
+            <mxPoint x="741.2031953900478" y="1373.1490521188753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-11" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;entryX=0.011;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1rGR28HXfyB7Ntd0fDnH-2" target="qHnR-toNfS0p5GE4n8LX-30">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="1435.85" as="sourcePoint" />
+            <mxPoint x="740" y="1560" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="860" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-13" value="ПАК 1 Причал 1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-17">
+          <mxGeometry width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-14" value="LiDAR" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.volume_2;pointerEvents=1" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-17">
+          <mxGeometry x="20" y="20" width="30.299999999999997" height="28.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-15" value="Camera" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-17">
+          <mxGeometry x="130" y="25.40000000000009" width="30" height="17.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-16" value="Process" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-17">
+          <mxGeometry x="78" y="80" width="52" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="1100" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-19" value="ПАК 2 Причал 1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-18">
+          <mxGeometry width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-20" value="LiDAR" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.volume_2;pointerEvents=1" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-18">
+          <mxGeometry x="20" y="20" width="30.299999999999997" height="28.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-21" value="Camera" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-18">
+          <mxGeometry x="130" y="25.40000000000009" width="30" height="17.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-22" value="Process" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-18">
+          <mxGeometry x="78" y="80" width="52" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="1320" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-25" value="ПАК 1 Причал 2" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-24">
+          <mxGeometry width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-26" value="LiDAR" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.volume_2;pointerEvents=1" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-24">
+          <mxGeometry x="20" y="20" width="30.299999999999997" height="28.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-27" value="Camera" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-24">
+          <mxGeometry x="130" y="25.40000000000009" width="30" height="17.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-28" value="Process" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-24">
+          <mxGeometry x="78" y="80" width="52" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-29" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="760" y="1560" width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-30" value="ПАК 2 Причал 2" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-29">
+          <mxGeometry width="220" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-31" value="LiDAR" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.volume_2;pointerEvents=1" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-29">
+          <mxGeometry x="20" y="20" width="30.299999999999997" height="28.2" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-32" value="Camera" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.camera;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-29">
+          <mxGeometry x="130" y="25.40000000000009" width="30" height="17.4" as="geometry" />
+        </mxCell>
+        <mxCell id="qHnR-toNfS0p5GE4n8LX-33" value="Process" style="verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.process;" vertex="1" parent="qHnR-toNfS0p5GE4n8LX-29">
+          <mxGeometry x="78" y="80" width="52" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
