@@ -500,7 +500,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c6KMtMzQ1vA4yeWa2BPZ" name="PilotModuls">
-    <mxGraphModel dx="1843" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2049" dy="1066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -532,7 +532,7 @@
           <mxGeometry x="990" y="720" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ac831EsEL3NWHv0uePR--13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=80;" parent="1" vertex="1">
-          <mxGeometry x="790" y="40" width="340" height="330" as="geometry" />
+          <mxGeometry x="180" y="40" width="950" height="330" as="geometry" />
         </mxCell>
         <mxCell id="ac831EsEL3NWHv0uePR--16" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=80;" parent="1" vertex="1">
           <mxGeometry x="40" y="540" width="210" height="250" as="geometry" />
@@ -547,13 +547,34 @@
           <mxGeometry x="60" y="630" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ac831EsEL3NWHv0uePR--18" value="Модули&amp;nbsp; приложения" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="800" y="60" width="130" height="30" as="geometry" />
+          <mxGeometry x="190" y="60" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ac831EsEL3NWHv0uePR--19" value="Dictionary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="810" y="100" width="140" height="60" as="geometry" />
+          <mxGeometry x="200" y="100" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ac831EsEL3NWHv0uePR--21" value="Authorization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
-          <mxGeometry x="810" y="190" width="140" height="60" as="geometry" />
+          <mxGeometry x="200" y="190" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-1" value="DockBuilder" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="200" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-2" value="Personal Dictionary" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-3" value="Virtual File Storage" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="380" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-4" value="Pilot Activity" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-5" value="AIS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-6" value="Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PnQb5IY52n-yC3mMX9QW-7" value="Demo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="900" y="100" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
