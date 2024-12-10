@@ -2008,7 +2008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5RDCgv-_N46BS7AF0k8J" name="Питание реле">
-    <mxGraphModel dx="743" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1037" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2348,7 +2348,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MMeJJcm73Y9omfS_Y3Jf-306" value="Номер бита" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="MMeJJcm73Y9omfS_Y3Jf-304">
+        <mxCell id="MMeJJcm73Y9omfS_Y3Jf-306" value="Номер бита" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="MMeJJcm73Y9omfS_Y3Jf-304">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2551,6 +2551,19 @@
         </mxCell>
         <mxCell id="K_IHgnH3ngswpNDv1AWI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DvVaZvqaNNeuOszN46Qy-47" target="K_IHgnH3ngswpNDv1AWI-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="DvVaZvqaNNeuOszN46Qy-47" target="DvVaZvqaNNeuOszN46Qy-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2380" y="120" />
+              <mxPoint x="2380" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-131" value="HTTP&lt;div&gt;Kafka&lt;/div&gt;&lt;div&gt;SignalR&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jv1eo1lnsQeLI7OYqilZ-130">
+          <mxGeometry x="-0.213" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="DvVaZvqaNNeuOszN46Qy-47" value="Moorinet.Core.Application (backend)" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
           <mxGeometry x="2440" y="90" width="300" height="60" as="geometry" />
@@ -2893,6 +2906,127 @@
         </mxCell>
         <mxCell id="jv1eo1lnsQeLI7OYqilZ-126" value="" style="text;spacing=0;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=7;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fillColor=none;fontColor=#666666;fontSize=17;" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-121">
           <mxGeometry y="110" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jv1eo1lnsQeLI7OYqilZ-127" target="MMeJJcm73Y9omfS_Y3Jf-304">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-127" value="Можем ли использовать одно значение &lt;b&gt;номер бита&lt;/b&gt;&amp;nbsp;&lt;div&gt;для тегов чтения и записи?&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=11;fontStyle=0;verticalAlign=middle;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="410" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-129" value="Версия ER схемы по ТЗ" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1680" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-132" value="OPCRecordService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2380" y="1680" width="150" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-135" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-132">
+          <mxGeometry x="70" y="110" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-136" value="Старт приложения" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="jv1eo1lnsQeLI7OYqilZ-135" parent="jv1eo1lnsQeLI7OYqilZ-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="90" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-132">
+          <mxGeometry x="70" y="230" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-16" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-132">
+          <mxGeometry x="70" y="390" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-19" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-132">
+          <mxGeometry x="70" y="490" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-20" value="Перерегистрация подписок на&amp;nbsp;&lt;div&gt;события для отслеживания изменений значений тегов&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KD2Ej75DmTJuUIENd4a5-19" parent="jv1eo1lnsQeLI7OYqilZ-132" source="KD2Ej75DmTJuUIENd4a5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="470" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="420" />
+              <mxPoint x="105" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-133" value="DeviceMonitoring" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="2847" y="1680" width="150" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-4" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-133">
+          <mxGeometry x="76" y="110" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-133">
+          <mxGeometry x="70" y="235" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-6" value="Считывает конфигурацию,&lt;div&gt;Готовит ответ для&amp;nbsp;&lt;/div&gt;&lt;div&gt;OPCRecordService&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KD2Ej75DmTJuUIENd4a5-5" parent="jv1eo1lnsQeLI7OYqilZ-133" source="KD2Ej75DmTJuUIENd4a5-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="215" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="150" />
+              <mxPoint x="105" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-133">
+          <mxGeometry x="71" y="300" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-14" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-133">
+          <mxGeometry x="71" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-15" value="Применение изменений&lt;div&gt;конфигурации в DeviceMonitoring&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KD2Ej75DmTJuUIENd4a5-14" parent="jv1eo1lnsQeLI7OYqilZ-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="76" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="106" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jv1eo1lnsQeLI7OYqilZ-134" value="Moorinet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="3220" y="1690" width="150" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="jv1eo1lnsQeLI7OYqilZ-134">
+          <mxGeometry x="70" y="310" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-10" value="Изменение настроек&amp;nbsp;&lt;div&gt;OPC тэгов/оборудования,&amp;nbsp;&lt;/div&gt;&lt;div&gt;т.д.&lt;/div&gt;" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="KD2Ej75DmTJuUIENd4a5-9" parent="jv1eo1lnsQeLI7OYqilZ-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="105" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="jv1eo1lnsQeLI7OYqilZ-135" target="KD2Ej75DmTJuUIENd4a5-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-3" value="Запрос на получение конфигурации OPC тегов" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KD2Ej75DmTJuUIENd4a5-2">
+          <mxGeometry x="-0.0472" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="KD2Ej75DmTJuUIENd4a5-5" target="KD2Ej75DmTJuUIENd4a5-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="KD2Ej75DmTJuUIENd4a5-9" target="KD2Ej75DmTJuUIENd4a5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-13" value="Уведомление для DeviceMonitoring" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KD2Ej75DmTJuUIENd4a5-12">
+          <mxGeometry x="-0.0105" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="KD2Ej75DmTJuUIENd4a5-14" target="KD2Ej75DmTJuUIENd4a5-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2560" y="2090" />
+              <mxPoint x="2560" y="2090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KD2Ej75DmTJuUIENd4a5-18" value="Уведомление для OPCRecord" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KD2Ej75DmTJuUIENd4a5-17">
+          <mxGeometry x="0.0837" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
