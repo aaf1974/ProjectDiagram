@@ -3474,12 +3474,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6ZmU_s014ZS6Sa84SjZ5" name="Погода">
-    <mxGraphModel dx="2206" dy="1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2390" dy="1243" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="frxF9heolgJpEnIFKT59-8" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="30" y="203" width="130" height="160" as="geometry" />
+          <mxGeometry x="30" y="304" width="130" height="160" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="frxF9heolgJpEnIFKT59-8">
           <mxGeometry width="130" height="160" as="geometry" />
@@ -3506,82 +3506,82 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-11" value="OPCRecordService" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
-          <mxGeometry x="361" y="258" width="49" height="50" as="geometry" />
+          <mxGeometry x="361" y="359" width="49" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-14" value="DeviceMonitoringUI" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.diagnostics" vertex="1" parent="1">
-          <mxGeometry x="1435" y="541" width="50" height="34" as="geometry" />
+        <mxCell id="frxF9heolgJpEnIFKT59-14" value="DeviceMonitoring.Front" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.diagnostics" vertex="1" parent="1">
+          <mxGeometry x="1435" y="644" width="50" height="34" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-15" value="Moorinet.Core.Web" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.overview" vertex="1" parent="1">
-          <mxGeometry x="1838" y="268.5" width="50" height="41" as="geometry" />
+          <mxGeometry x="1838" y="370.5" width="50" height="41" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-17" value="Конфигурация чтения&amp;nbsp;&lt;div&gt;тегов из PLC устройства&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.intune.policy" vertex="1" parent="1">
-          <mxGeometry x="360" y="374" width="50" height="50" as="geometry" />
+          <mxGeometry x="360" y="476" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-18" target="frxF9heolgJpEnIFKT59-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-18" value="WeatherService" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
-          <mxGeometry x="960" y="265" width="49" height="50" as="geometry" />
+          <mxGeometry x="960" y="366" width="49" height="50" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.509;entryY=0.251;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-11" target="frxF9heolgJpEnIFKT59-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-24" value="DeviceMonitoring" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
-          <mxGeometry x="1205" y="525" width="49" height="50" as="geometry" />
+        <mxCell id="frxF9heolgJpEnIFKT59-24" value="DeviceMonitoring.Back" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
+          <mxGeometry x="1205" y="627" width="49" height="50" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-43" target="frxF9heolgJpEnIFKT59-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-43" value="Moorinet.Core" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
-          <mxGeometry x="1619" y="264" width="49" height="50" as="geometry" />
+        <mxCell id="frxF9heolgJpEnIFKT59-43" value="Moorinet.Core.Application" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
+          <mxGeometry x="1619" y="366" width="49" height="50" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-43" target="frxF9heolgJpEnIFKT59-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1749" y="298" as="targetPoint" />
+            <mxPoint x="1749" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.235;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-24" target="frxF9heolgJpEnIFKT59-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-51" value="Record" style="html=1;verticalLabelPosition=top;align=center;labelBackgroundColor=#ffffff;verticalAlign=bottom;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;sketch=0;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#505050;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="963" y="50" width="39" height="60.55" as="geometry" />
+          <mxGeometry x="963" y="103" width="39" height="60.55" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.564;entryY=1.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-18" target="frxF9heolgJpEnIFKT59-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-79" value="Погодные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-52">
+        <mxCell id="frxF9heolgJpEnIFKT59-79" value="Погодные данные по причалу&lt;div&gt;Сырые данные погодных датчиков&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-52">
           <mxGeometry x="0.3454" y="-2" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-53" value="Main" style="html=1;verticalLabelPosition=top;align=center;labelBackgroundColor=#ffffff;verticalAlign=bottom;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;sketch=0;pointerEvents=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#505050;labelPosition=center;" vertex="1" parent="1">
-          <mxGeometry x="1624" y="50" width="39" height="60.55" as="geometry" />
+          <mxGeometry x="1624" y="103" width="39" height="60.55" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.041;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-53" target="frxF9heolgJpEnIFKT59-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1072" y="90" />
-              <mxPoint x="1072" y="271" />
+              <mxPoint x="1100" y="133" />
+              <mxPoint x="1100" y="378" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-78" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Настройки и приоритеты для датчиков&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-57">
+        <mxCell id="frxF9heolgJpEnIFKT59-78" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Настройки и приоритеты&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;для датчиков&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-57">
           <mxGeometry x="-0.263" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-60" value="Состояние датчиков" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.message;" vertex="1" parent="1">
-          <mxGeometry x="1196" y="374" width="60" height="60" as="geometry" />
+          <mxGeometry x="1196" y="476" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-61" target="frxF9heolgJpEnIFKT59-74">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="550" />
+              <mxPoint x="560" y="652" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-61" value="Kafka" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.mq;" vertex="1" parent="1">
-          <mxGeometry x="520" y="233" width="80" height="100" as="geometry" />
+          <mxGeometry x="520" y="334" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-62" target="frxF9heolgJpEnIFKT59-60">
           <mxGeometry relative="1" as="geometry" />
@@ -3590,13 +3590,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-62" value="Kafka" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.mq;" vertex="1" parent="1">
-          <mxGeometry x="1186" y="239" width="80" height="100" as="geometry" />
+          <mxGeometry x="1186" y="341" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-64" target="frxF9heolgJpEnIFKT59-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-64" value="Погодные данные" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.message;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="259" width="60" height="60" as="geometry" />
+          <mxGeometry x="1430" y="361" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.431;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-60" target="frxF9heolgJpEnIFKT59-24">
           <mxGeometry relative="1" as="geometry" />
@@ -3605,58 +3605,36 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-74" value="Состояние сервиса" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.message;" vertex="1" parent="1">
-          <mxGeometry x="700" y="520" width="60" height="60" as="geometry" />
+          <mxGeometry x="700" y="622" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="frxF9heolgJpEnIFKT59-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.06;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-74" target="frxF9heolgJpEnIFKT59-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-81" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1577.5" y="860" width="130" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry width="130" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-83" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.sensor;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry x="29" y="70" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-84" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_humidity_sensor;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry x="69" y="24" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-85" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_thing_temperature_humidity_sensor;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry x="69" y="70" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-86" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#6ABD46;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0.085,0.085,0],[0.915,0.085,0],[0.915,0.915,0],[0.085,0.915,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=mxgraph.cisco_safe.architecture.generic_appliance;resIcon=mxgraph.cisco_safe.architecture.sensor;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry x="29" y="24" width="30" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-87" value="PLC устройство для работы с дальномерами" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="frxF9heolgJpEnIFKT59-81">
-          <mxGeometry y="110" width="130" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-96" target="frxF9heolgJpEnIFKT59-43">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-88" target="frxF9heolgJpEnIFKT59-82">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-88" value="OPCRecordService" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.services" vertex="1" parent="1">
-          <mxGeometry x="1618" y="690" width="49" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-88" target="frxF9heolgJpEnIFKT59-94">
+        <mxCell id="frxF9heolgJpEnIFKT59-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;endArrow=none;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-15" target="frxF9heolgJpEnIFKT59-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1644" y="660" as="sourcePoint" />
-            <mxPoint x="1644" y="314" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1863" y="60" />
+              <mxPoint x="870" y="60" />
+              <mxPoint x="870" y="374" />
+              <mxPoint x="962" y="374" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-94" value="Kafka" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.mq;" vertex="1" parent="1">
-          <mxGeometry x="1602.5" y="508" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-94" target="frxF9heolgJpEnIFKT59-96">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1643" y="508" as="sourcePoint" />
-            <mxPoint x="1643" y="314" as="targetPoint" />
+        <mxCell id="frxF9heolgJpEnIFKT59-100" value="Исторические погодные данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-99">
+          <mxGeometry x="-0.1355" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="frxF9heolgJpEnIFKT59-96" value="Данные дальномеров&amp;nbsp;&lt;div&gt;+ погодные данные&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.message;" vertex="1" parent="1">
-          <mxGeometry x="1613" y="374" width="60" height="60" as="geometry" />
+        <mxCell id="frxF9heolgJpEnIFKT59-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="frxF9heolgJpEnIFKT59-101" target="frxF9heolgJpEnIFKT59-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="frxF9heolgJpEnIFKT59-103" value="&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Настройки и приоритеты&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;для датчиков&lt;/span&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="frxF9heolgJpEnIFKT59-102">
+          <mxGeometry x="-0.0539" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="frxF9heolgJpEnIFKT59-101" value="Moorinet.Core.Application.Front" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#505050;shape=mxgraph.mscae.oms.overview" vertex="1" parent="1">
+          <mxGeometry x="1618" y="560" width="50" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
